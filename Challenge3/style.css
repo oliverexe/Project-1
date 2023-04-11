@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;500;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: whitesmoke;
+}
+.container{
+    width: 736px;
+    height: 512px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 369px;
+    height: 512px;
+    background-color: #5A3DF9;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.left h2{
+    padding-bottom: 35px;
+    color: rgba(255, 255, 255, 0.747);
+}
+.left h3{
+    font-size: 31px;
+    padding-top: 32px;
+    padding-bottom: 21px;
+    color: white;
+}
+.left p{
+    text-align: center;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.68);
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(#4A24CF, #4924cf2b);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#c{
+    color: rgba(255, 255, 255, 0.525);
+    font-weight: 200;
+}
+.circle span{
+    font-weight: 700;
+    font-size: 70px;
+}
+.circle h2, span{
+    color: white;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 39px;
+}
+li{
+    width: 289px;
+    height: 56px;
+    background-color: #FFF6F5;
+    margin: 16px 0;
+    list-style-type: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right button{
+    width: 289px;
+    height: 56px;
+    background-color: #303B59;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.right button:hover{
+    color: greenyellow;
+    transition: 0.6s;
+    background-color: #080e1f;
+}
+li {
+    padding-right: 13px;
+}
+.name{
+    display: flex
+}
+.name img,h3{
+    margin: 0 12px;
+}
+#reaction{
+color: #FF5555;
+}
+#memory{
+color: #FFB21E;
+}
+#verbal{
+color: #00BB8F;
+}
+#visual{
+color: #1125D6;
+}
+#renk{
+    color: rgb(162, 162, 162);
+}
